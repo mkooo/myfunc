@@ -1,6 +1,6 @@
 module.exports = (event, context) => {
   const result = {
-    status: 'Node.js serverless on Unubo Cloud.',
+    status: 'Hello Serverless',
   };
 
   context.status(200).succeed(result);
