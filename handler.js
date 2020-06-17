@@ -3,5 +3,6 @@ module.exports = (event, context) => {
     status: 'Hello Serverless',
   };
 
+  //サンプルテキスト
   context.status(200).succeed(result);
 };
